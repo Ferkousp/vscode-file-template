@@ -96,7 +96,7 @@ export class Compilation {
 				nameWithoutSuffix: name,
 			};
 		}
-		const namePrefix = parts[parts.length - 1];
+		const namePrefix = parts[0];
 		const nameSuffix = parts[parts.length - 1];
 		const nameWithoutPrefix = parts.slice(1).join("-");
 		const nameWithoutSuffix = parts.slice(0, parts.length - 1).join("-");
